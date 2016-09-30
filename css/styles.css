@@ -1,0 +1,93 @@
+nav {
+	background-color: #213bb8;
+	color: white;
+}
+
+nav img {
+	margin-left: 75%;
+}
+* {
+	font-family: 'Asap', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+	margin-left: 10%;
+	padding: 3px 0px 1px 0px;
+}
+h2 {
+	margin-left: 10%;
+}
+
+.heart {
+	font-size: 60%;
+	vertical-align: top;
+}
+.matches {
+	margin: 2% 10%;
+}
+
+.match {
+	display: inline-block;
+	border: 1px solid green;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	width: 200px;
+	height: 175px;
+}
+.match p {
+	color: #474545;
+}
+.topProfile {
+	background-color: white;
+	padding: 10px;
+}
+.topProfile img {
+	float: left;
+	margin-right: 3px;
+}
+
+.remove {
+	float: right;
+	color: #c9c5c5;
+	font-size: 110%;
+	background-color: transparent;
+	border: none;
+}
+.bottomProfile {
+	background-color: #c9c5c5;
+	padding: 10px;
+	width: 180px;
+	position: relative;
+	bottom: 0px;
+	
+}
+.save {
+	background-color: #213bb8;
+	color: white;
+	text-transform: capitalize;
+	border-radius: 15px;
+	float: right;
+}
+.online {
+	position: absolute;
+	margin-left: 80%;
+	margin-right: 0px;
+	margin-top: -20px;
+	list-style: none;
+}
+.onlineCat {
+	padding: 5px;
+	border: 1px solid #c9c5c5;
+	width: 320px;
+	height: 150px;
+	color: #474545;
+	box-shadow: -2px 2px 2px #c9c5c5;
+}
+footer {
+	position:absolute;
+	padding-bottom: 5px;
+	width: 100%;
+}

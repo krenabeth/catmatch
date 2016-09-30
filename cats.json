@@ -1,0 +1,175 @@
+[{ 	
+	"name" : "Roosevelt",
+	"age" : 12,
+	"breed" : "short hair domestic",
+	"about" : "easy going",
+	"imageUrl": "images/roosevelt.jpg"
+},
+{ 	
+	"name" : "Bella",
+	"age" : 5,
+	"breed" : "short hair domestic",
+	"about" : "knows what she wants",
+	"imageUrl": "images/bella.jpg"
+},
+{ 	
+	"name" : "Ziggy",
+	"age" : 3,
+	"breed" : "calico",
+	"about" : "fiesty",
+	"imageUrl": "images/ziggy.jpg"
+},
+{ 	
+	"name" : "Lucky",
+	"age" : 10,
+	"breed" : "short hair domestic",
+	"about" : "very loving, sweet, good natured, loves ice cream",
+	"imageUrl": "images/silhouette.png"
+},
+{ 	
+	"name" : "Tama",
+	"age" : 14,
+	"breed" : "long hair domestic",
+	"about" : "King of the castle",
+	"imageUrl": "images/longhair.jpg"
+},
+{ 	
+	"name" : "Cat",
+	"age" : 9,
+	"breed" : "",
+	"about" : "easy going",
+	"imageUrl": "images/cat.jpg"
+},
+{ 	
+	"name" : "Sweetheart",
+	"age" : 7,
+	"breed" : "calico",
+	"about" : "looking for the purrfect home",
+	"imageUrl": "images/angrycalico.jpg"
+},
+{ 	
+	"name" : "Buddy",
+	"age" : 4,
+	"breed" : "short hair domestic",
+	"about" : "Me: easy going guy, You: must have a sense of humor",
+	"imageUrl": "images/couch.jpg"
+},
+{ 	
+	"name" : "Foxie",
+	"age" : 3,
+	"breed" : "long hair",
+	"about" : "wild at heart",
+	"imageUrl": "images/blacklong.jpg"
+},
+{ 	
+	"name" : "Blue",
+	"age" : 6,
+	"breed" : "",
+	"about" : "Looking for soulmate, best friend, someone to sharpen my claws on",
+	"imageUrl": "images/bluebox.jpg"
+},
+{ 	
+	"name" : "Precious",
+	"age" : 5,
+	"breed" : "short hair domestic",
+	"about" : "I gorgus and I great personality what more you to pecky",
+	"imageUrl": "images/blueeyes.jpg"
+},
+{ 	
+	"name" : "Princess",
+	"age" : 8,
+	"breed" : "short hair domestic",
+	"about" : "Honesty is the best policy",
+	"imageUrl": "images/whitelong.jpg"
+},
+{ 	
+	"name" : "Prudence",
+	"age" : 3,
+	"breed" : "calico",
+	"about" : "Shy guy looking for lovin",
+	"imageUrl": "images/wideeyed.jpg"
+},
+{ 	
+	"name" : "Moe",
+	"age" : 4,
+	"breed" : "short hair domestic",
+	"about" : "Are you out there?",
+	"imageUrl": "images/graycloseup.jpg"
+},
+{ 	
+	"name" : "Batman",
+	"age" : 5,
+	"breed" : "short hair domestic",
+	"about" : "I'm jaded and sarcastic. Deal with it.",
+	"imageUrl": "images/black.jpg"
+},
+{ 	
+	"name" : "Zag",
+	"age" : 9,
+	"breed" : "short hair domestic",
+	"about" : "I'm very active, must be outdoors skiing, biking, running, boating, can't stand to sit still for more than a minute.",
+	"imageUrl": "images/lazy.jpg"
+},
+{ 	
+	"name" : "Orhpeus",
+	"age" : 12,
+	"breed" : "long hair domestic",
+	"about" : "Well it's really hard to describe myself, I would say my friends think I'm great",
+	"imageUrl": "images/mysterious.jpg"
+},
+{ 	
+	"name" : "Mutti",
+	"age" : 5,
+	"breed" : "long hair domestic",
+	"about" : "Looking for that instant connection, someone who loves kids, likes to have fun",
+	"imageUrl": "images/mom.jpg"
+},
+{ 	
+	"name" : "What",
+	"age" : 11,
+	"breed" : "short hair domestic",
+	"about" : "What?",
+	"imageUrl": "images/tan.jpg"
+}, 
+{ 	
+	"name" : "Blanket",
+	"age" : 3,
+	"breed" : "short hair domestic",
+	"about" : "Looking for adventure and someone with a stable income",
+	"imageUrl": "images/blanket.jpg"
+},
+{ 	
+	"name" : "Bob",
+	"age" : 13,
+	"breed" : "short hair domestic",
+	"about" : "Just giving it a try again. Who knows?",
+	"imageUrl": "images/blackwhite.jpg"
+},
+{ 	
+	"name" : "Lou",
+	"age" : 5,
+	"breed" : "",
+	"about" : "Hello, I'm the greatest cat you'll ever meet.",
+	"imageUrl": "images/long.jpg"
+},
+{ 	
+	"name" : "Sam",
+	"age" : 7,
+	"breed" : "short hair domestic",
+	"about" : "Just looking",
+	"imageUrl": "images/white.jpg"
+},
+{ 	
+	"name" : "Victor",
+	"age" : 10,
+	"breed" : "short hair domestic",
+	"about" : "People really need to respect boundaries, put the food out in a timely manner, and leave the vacuum beast in the closet.",
+	"imageUrl": "images/grey.jpg"
+},
+{ 	
+	"name" : "Elsa",
+	"age" :4,
+	"breed" : "long hair domestic",
+	"about" : "I like my freedom",
+	"imageUrl": "images/bowl.jpg"
+}]
