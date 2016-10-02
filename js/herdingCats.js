@@ -3,11 +3,11 @@ var app = angular.module('myApp');
 app.config(function($routeProvider) {
 	$routeProvider.
 		when('/', {
-			template: 'index.html',
+			template: '',
 			controller: 'catCtrl'
 		}).
 		when('/:quick', {
-			template: '<div><h1>{{cat.name}}</h1></div>',
+			template: '<h1>HELLLO {{cat.name}}</h1>',
 			controller: 'quickCtrl'
 		}).
 		otherwise({

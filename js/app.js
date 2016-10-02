@@ -1,1 +1,6 @@
-var app = angular.module('myApp', []);
+var app = angular.module('myApp', ['ngRoute']);
+
+app.controller('matchCtrl', function ($scope) {
+
+
+});

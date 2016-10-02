@@ -6,7 +6,6 @@ app.controller('catCtrl', ['$scope', '$http', function ($scope, $http){
 	});
 
 	$scope.removeName = function(cat) {
-		console.log('what!');
 		var i = $scope.cats.indexOf(cat);
 		$scope.cats.splice(i, 1);
 	};
