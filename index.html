@@ -5,24 +5,21 @@
     <title>cat&hearts;match</title>
     <link type="text/css" rel="stylesheet" href="css/styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Asap|Roboto" rel="stylesheet">
-    
-
   </head>
   <body ng-app="myApp">
-    <nav><h1>cat<span class="heart">&hearts;</span>match
-     <img src="images/chat.png"><span class="heart">Online Now</span></h1>
+    <nav><h1>cat<span class="heart">&hearts;</span>match</h1>
+      <button id="power">PET US</button>
+      <ul class="navigation">
+        <li><div class="blob"></div>Matches</li>
+        <li>Connections</li>
+        <li>Messages</li>
+        <li>Events</li>
+      </ul>
+     <img src="images/chat.png"><h1><span class="heart">Online Now</span></h1>
     </nav>
 
     <!-- link to pets that need homes -->
-    <ul ng-controller="petCtrl" class="online">
-      <li class="onlineCat">
-        <a href="{{link}}">
-        <h3>{{name}}</h3>
-        <h4>{{age}} year old {{breed}}</h4>
-        <img ng-src="{{imageUrl}}" width="100">
-        <p>{{about}}</p>
-        </a>
-      </li> 
+    <ul class="online">
     </ul>
 
   <!-- search options -->
@@ -59,6 +56,8 @@
     
 
     <footer>
+      <div>
+      </div>
       <h4>Powered by <a href="www.petfinder.com">Petfinder.com</a></h4>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
@@ -70,6 +69,6 @@
     <script src="js/quickcontroller.js"></script>
     <script src="js/petcontroller.js"></script>
 
-   <script type="text/javascript">document.write('<iframe src="http://adultcatfinder.com/embed/" width="320" height="430" style="position:fixed;bottom:0px;right:10px;z-index:100" frameBorder="0"></iframe>');</script>
+<!--    <script type="text/javascript">document.write('<iframe src="http://adultcatfinder.com/embed/" width="320" height="430" style="position:fixed;bottom:0px;right:10px;z-index:100" frameBorder="0"></iframe>');</script> -->
   </body>
 </html>
