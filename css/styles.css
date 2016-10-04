@@ -124,7 +124,25 @@ h2 {
 	box-shadow: -2px 2px 2px #c9c5c5;
 }
 footer {
+	padding: 2%;
+	color: #2a2d2d;
+	font-size: 60%;
+	background-color: #f2efef;
 	position:absolute;
 	padding-bottom: 5px;
 	width: 100%;
+	line-height: .8;
+}
+footer a {
+	color: #2a2d2d;
+	font-size: 60%;
+}
+footer div {
+	margin-left: 20px;
+	padding-right: 20px;
+	display: inline-block;
+	border-right: 1px solid #9fa3a3;
+}
+.github {
+	border-right: 0;
 }
