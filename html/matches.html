@@ -1,0 +1,18 @@
+    <ul class="matches">
+      <li ng-repeat="cat in cats | filter:query | orderBy:sortField" class="match">
+        <button ng-click="removeName(cat)" class="remove">x</button>
+        <div class="topProfile">
+          <img ng-src="{{cat.imageUrl}}" width="75">
+          <h3>{{cat.name}}</h3>
+          <p>{{cat.age}} | {{cat.breed}}</p>
+          <p>{{cat.location}}</p>
+<!--           <p>Within {{cat.active}} hours</p>
+          <p> {{percent}}% match</p> -->
+        </div>
+        <div class="bottomProfile">
+          <img src="images/quick.png"><a href=":quick">Quick view</a><a href="http://www.humanesociety.org/donate"><button class="save">Save</button></a>
+          <!-- quick view will include cat.about -->
+        </div>
+
+      </li> 
+    </ul>

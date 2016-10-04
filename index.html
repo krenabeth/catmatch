@@ -11,9 +11,9 @@
       <ul>
         <li><h1>cat<span class="heart">&hearts;</span>match</h1></li>
         <li class="shift"><button id="power">PET US</button></li>
-        <li class="shift"><div class="blob">.</div>Matches</li>
-        <li>Connections</li>
-        <li>Messages</li>
+        <li class="shift"><a href="#/matches"><div class="blob">.</div>Matches</a></li>
+        <li><a href="#/connections">Connections</a></li>
+        <li><a href="#/messages">Messages</a></li>
         <li>Events</li>
         <li class="onlineNow"><img src="images/chat.png"></li>
         <li class="onlineNow"><h1><span class="heart">Online Now</span></h1></li>
@@ -23,6 +23,8 @@
 
     <!-- link to pets that need homes -->
     <ul class="online">
+    </ul>
+    <ul class="online2">
     </ul>
 
   <!-- search options -->
@@ -36,28 +38,9 @@
     </select>
   </h2>
 
+  <main>
     <ng-view></ng-view>
-  <!-- matches -->
-    <ul ng-controller="catCtrl" class="matches">
-      <li ng-repeat="cat in cats | filter:query | orderBy:sortField" class="match">
-        <button ng-click="removeName(cat)" class="remove">x</button>
-        <div class="topProfile">
-          <img ng-src="{{cat.imageUrl}}" width="75">
-          <h3>{{cat.name}}</h3>
-          <p>{{cat.age}} | {{cat.breed}}</p>
-          <p>{{cat.location}}</p>
-<!--           <p>Within {{cat.active}} hours</p>
-          <p> {{percent}}% match</p> -->
-        </div>
-        <div class="bottomProfile">
-          <img src="images/quick.png"><a href=":quick">Quick view</a><a href="http://www.humanesociety.org/donate"><button class="save">Save</button></a>
-          <!-- quick view will include cat.about -->
-        </div>
-
-      </li> 
-    </ul>
-    
-
+  </main>
     <footer>
       <div>
         <h3>Powered by</h3>
@@ -86,8 +69,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
     <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
+    <script src="js/herdingcats.js"></script>
     <script src="js/catcontroller.js"></script>
-<!-- <script src="js/herdingCats.js"></script> -->
     <script src="js/quickcontroller.js"></script>
     <script src="js/petcontroller.js"></script>
   </body>
