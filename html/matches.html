@@ -9,8 +9,8 @@
 <!--           <p>Within {{cat.active}} hours</p>
           <p> {{percent}}% match</p> -->
         </div>
-        <div class="bottomProfile">
-          <img src="images/quick.png"><a href=":quick">Quick view</a><a href="http://www.humanesociety.org/donate"><button class="save">Save</button></a>
+        <div class="bottomProfile" ng-controller="quickCtrl">
+          <img src="images/quick.png"><button ng-click="quick(cat)" class="quickButton">Quick view</button><a href="http://www.humanesociety.org/donate"><button class="save">Save</button></a>
           <!-- quick view will include cat.about -->
         </div>
 
