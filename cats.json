@@ -1,12 +1,5 @@
 [{ 	
-	"name" : "Roosevelt",
-	"age" : 12,
-	"breed" : "short hair domestic",
-	"about" : "easy going",
-	"imageUrl": "images/roosevelt.jpg"
-},
-{ 	
-	"name" : "Bella",
+	"name" : "Bella5",
 	"age" : 5,
 	"breed" : "short hair domestic",
 	"about" : "knows what she wants",
@@ -20,24 +13,24 @@
 	"imageUrl": "images/ziggy.jpg"
 },
 { 	
-	"name" : "Lucky",
+	"name" : "Lucky1",
 	"age" : 10,
 	"breed" : "short hair domestic",
-	"about" : "very loving, sweet, good natured, loves ice cream",
+	"about" : "very loving, easy going, sweet, good natured, loves ice cream. Looking for same.",
 	"imageUrl": "images/silhouette.png"
 },
 { 	
-	"name" : "Tama",
+	"name" : "likes_birds",
 	"age" : 14,
 	"breed" : "long hair domestic",
-	"about" : "King of the castle",
+	"about" : "King of the castle. I'm perfectly happy alone. But if you want to feed me, pet me, groom me, and generally be at my beck and call, I'll consider it.",
 	"imageUrl": "images/longhair.jpg"
 },
 { 	
-	"name" : "Cat",
+	"name" : "Secret",
 	"age" : 9,
 	"breed" : "",
-	"about" : "easy going",
+	"about" : "easy going - looking for someone who is quiet, dependable with meals, lots of soft places and windows. No dogs or kids please. Other cats: negotiable",
 	"imageUrl": "images/cat.jpg"
 },
 { 	
@@ -58,7 +51,7 @@
 	"name" : "Foxie",
 	"age" : 3,
 	"breed" : "long hair",
-	"about" : "wild at heart",
+	"about" : "wild at heart, looking for my partner in crime",
 	"imageUrl": "images/blacklong.jpg"
 },
 { 	
@@ -69,7 +62,7 @@
 	"imageUrl": "images/bluebox.jpg"
 },
 { 	
-	"name" : "Precious",
+	"name" : "BlueIFeline",
 	"age" : 5,
 	"breed" : "short hair domestic",
 	"about" : "I gorgus and I great personality what more you to pecky",
@@ -83,7 +76,7 @@
 	"imageUrl": "images/whitelong.jpg"
 },
 { 	
-	"name" : "Prudence",
+	"name" : "EZgoingGuy",
 	"age" : 3,
 	"breed" : "calico",
 	"about" : "Shy guy looking for lovin",
@@ -132,7 +125,7 @@
 	"imageUrl": "images/tan.jpg"
 }, 
 { 	
-	"name" : "Blanket",
+	"name" : "2bpetted",
 	"age" : 3,
 	"breed" : "short hair domestic",
 	"about" : "Looking for adventure and someone with a stable income",
@@ -160,7 +153,7 @@
 	"imageUrl": "images/white.jpg"
 },
 { 	
-	"name" : "Victor",
+	"name" : "purrs_a_lot",
 	"age" : 10,
 	"breed" : "short hair domestic",
 	"about" : "People really need to respect boundaries, put the food out in a timely manner, and leave the vacuum beast in the closet.",
