@@ -1,0 +1,40 @@
+.banner {
+	background-color: gray;
+	width: 75%;
+	left-margin: 10px;
+}
+.banner > div {
+	display: inline-block;
+}
+.side {
+	color: blue;
+	background-color: black;
+	font-weight: bold;
+	font-size: 130%;
+	padding: 10px 15px;
+	margin: 0px 0px;
+}
+.sRight {
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	float: right;
+}
+.sLeft {
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.arrow {
+	width: 30px;
+	background-color: green;
+	transform: rotate(90deg);
+}
+.blueButton {
+	border-radius: 10px;
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	font-size: 130%;
+}
+.adCat {
+	color: white;
+}

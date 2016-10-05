@@ -4,20 +4,24 @@
 a {
 	text-decoration: none;
 }
+
+/* navigation styling */
 nav {
 	background-color: #213bb8;
 	color: white;
 	margin-left: 10%;
-
+	font-family: 'Roboto', sans-serif;
 }
-
+nav a {
+	color: white;
+}
 nav img {
 	margin-right: 0px;
 }
 nav ul li {
 	display: inline-block;
 	list-style: none;
-	margin-right: 10px;
+	margin-right: 20px;
 	
 }
 .blob {
@@ -34,14 +38,6 @@ nav ul li {
 }
 .onlineNow {
 	float: right;
-}
-
-h1 {
-	font-family: 'Roboto', sans-serif;
-	padding: 3px 0px 1px 0px;
-}
-h2 {
-	margin-left: 10%;
 }
 
 .heart {
@@ -62,6 +58,12 @@ h2 {
 	background-color: #2ab82a;
 	
 }
+/* end of navigation styling */
+
+h2 {
+	margin-left: 10%;
+}
+
 .matches {
 	margin: 2% 10%;
 }
@@ -108,6 +110,8 @@ h2 {
 	border-radius: 15px;
 	float: right;
 }
+
+/* online petfinder styling */
 .online {
 	z-index: 99;
 	position: absolute;
@@ -123,6 +127,9 @@ h2 {
 	color: #474545;
 	box-shadow: -2px 2px 2px #c9c5c5;
 }
+/* end of online petfinder styling */
+
+/* footer styling */
 footer {
 	padding: 2%;
 	color: #2a2d2d;

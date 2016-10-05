@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>cat&hearts;match</title>
     <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    <link type="text/css" rel="stylesheet" href="css/adStyling.css" />
     <link href="https://fonts.googleapis.com/css?family=Asap|Roboto" rel="stylesheet">
   </head>
   <body ng-app="myApp">
@@ -11,7 +12,7 @@
       <ul>
         <li><h1>cat<span class="heart">&hearts;</span>match</h1></li>
         <li class="shift"><button id="power">PET US</button></li>
-        <li class="shift"><a href="#/matches"><div class="blob">.</div>Matches</a></li>
+        <li class="shift"><a href="#/matches">Matches</a></li>
         <li><a href="#/connections">Connections</a></li>
         <li><a href="#/messages">Messages</a></li>
         <li>Events</li>
@@ -21,13 +22,7 @@
      
     </nav>
 
-    <!-- link to pets that need homes -->
-    <ul class="online">
-    </ul>
-    <ul class="online2">
-    </ul>
-
-  <!-- search options -->
+      <!-- search options -->
     <h2>Search: <input ng-model="query" type="text" /></h2>
     <label for="multipleSort"><h2>Sort by: </label>
     <select name="multipleSort" id="multipleSort" ng-model="sortField" multiple>
@@ -37,6 +32,23 @@
       <option value="name">Name</option>
     </select>
   </h2>
+    <!-- banner ad -->
+    <div class="banner">
+      <div class="side sLeft">YOU'RE<br>INVITED</div>
+      <div class="arrow"></div>
+      <div><span class="adCat">Game Night Featuring Cats Against Humanity</span><br>Everyday | Game Night @ Purrfinn Furbles<button class="blueButton">VIEW ALL EVENTS</button></div>
+      <div class="arrow"></div>
+      <div class="side sRight"><span class="adCat">cat<span>&hearts;</span>match</span><br>furrevents
+        <button>x</button></div>
+    </div>
+
+    <!-- link to pets that need homes -->
+    <ul class="online">
+    </ul>
+    <ul class="online2">
+    </ul>
+
+
 
   <main>
     <ng-view></ng-view>
