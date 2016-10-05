@@ -1,7 +1,8 @@
 .banner {
 	background-color: gray;
-	width: 75%;
-	left-margin: 10px;
+	width: 65%;
+	margin-left: 15%;
+
 }
 .banner > div {
 	display: inline-block;
@@ -37,4 +38,28 @@
 }
 .adCat {
 	color: white;
+}
+
+/* blue ad on connections */
+.blueAd {
+	background-color: #213bb8;
+	color: white;
+	text-align: center;
+	height: 200px;
+	width: 350px;
+	float: right;
+	margin-right: 20%;
+	padding: 15px;
+}
+.blueAd h1 {
+	color: #aeddfb;
+	margin-left: -5px;
+}
+.blueAd a {
+	background-color: #aeddfb;
+	color: #213bb8;
+	text-decoration: none;
+	font-size: 150%;
+	padding: 15px;
+	border-radius: 20px;
 }

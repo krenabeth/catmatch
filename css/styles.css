@@ -1,15 +1,15 @@
 * {
 	font-family: 'Asap', sans-serif;
 }
+
 a {
 	text-decoration: none;
 }
 
 /* navigation styling */
 nav {
-	background-color: #213bb8;
+	background-color: #036dab;
 	color: white;
-	margin-left: 10%;
 	font-family: 'Roboto', sans-serif;
 }
 nav a {
@@ -18,11 +18,13 @@ nav a {
 nav img {
 	margin-right: 0px;
 }
+nav ul {
+	margin-left: 15%;
+}
 nav ul li {
 	display: inline-block;
 	list-style: none;
 	margin-right: 20px;
-	
 }
 .blob {
 	border-radius: 100px;
@@ -37,7 +39,11 @@ nav ul li {
 	margin-left: 40px;
 }
 .onlineNow {
-	float: right;
+	background-color: #213bb8;
+}
+.onlineNow.img {
+	float: left;
+	clear left;
 }
 
 .heart {
@@ -63,14 +69,18 @@ nav ul li {
 h2 {
 	margin-left: 10%;
 }
-
-.matches {
-	margin: 2% 10%;
+main {
+	padding: 2px;
+	min-height: 300px;
 }
 
+.matches {
+	margin: 2% 15%;
+}
 .match {
 	display: inline-block;
 	border: 1px solid green;
+	padding-bottom: 0px;
 	margin-right: 20px;
 	margin-bottom: 15px;
 	width: 200px;
@@ -100,8 +110,7 @@ h2 {
 	padding: 10px;
 	width: 180px;
 	position: relative;
-	bottom: 0px;
-	
+	bottom: 0px;	
 }
 .save {
 	background-color: #213bb8;
@@ -109,6 +118,9 @@ h2 {
 	text-transform: capitalize;
 	border-radius: 15px;
 	float: right;
+}
+.search {
+	float: left;
 }
 
 /* online petfinder styling */
@@ -149,6 +161,7 @@ footer div {
 	padding-right: 20px;
 	display: inline-block;
 	border-right: 1px solid #9fa3a3;
+	bottom: 0px;
 }
 .github {
 	border-right: 0;
