@@ -16,22 +16,22 @@
         <li><a href="#/connections">Connections</a></li>
         <li><a href="#/messages">Messages</a></li>
         <li>Events</li>
-        <li class="onlineNow"><img src="images/chat.png"></li>
-        <li class="onlineNow"><h1><span class="heart">Online Now</span></h1></li>
+        <li class="onlineNow"><img src="images/chat.png"><h1><span class="heart">Online Now</span></h1></li>
       </ul>
      
     </nav>
 
       <!-- search options -->
-    <h2>Search: <input ng-model="query" type="text" /></h2>
-    <label for="multipleSort"><h2>Sort by: </label>
-    <select name="multipleSort" id="multipleSort" ng-model="sortField" multiple>
-      <option value="age" >Youngest to oldest</option> 
-      <option value="-age">Oldest to youngest</option> 
-      <option value="breed">Breed</option>
-      <option value="name">Name</option>
-    </select>
-  </h2>
+    <div class="search"><h2>Search: <input ng-model="query" type="text" /></h2>
+      <label for="multipleSort"><h2>Sort by: </label>
+        <select name="multipleSort" id="multipleSort" ng-model="sortField" multiple>
+        <option value="age" >Youngest to oldest</option> 
+        <option value="-age">Oldest to youngest</option> 
+        <option value="breed">Breed</option>
+        <option value="name">Name</option>
+      </select>
+      </h2>
+    </div>
     <!-- banner ad -->
     <div class="banner">
       <div class="side sLeft">YOU'RE<br>INVITED</div>
@@ -47,12 +47,11 @@
     </ul>
     <ul class="online2">
     </ul>
-
-
-
+    
   <main>
     <ng-view></ng-view>
   </main>
+
     <footer>
       <div>
         <h3>Powered by</h3>
