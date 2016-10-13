@@ -11,6 +11,7 @@ nav {
 	background-color: #036dab;
 	color: white;
 	font-family: 'Roboto', sans-serif;
+	height: 70px;
 }
 nav a {
 	color: white;
@@ -40,6 +41,12 @@ nav ul li {
 }
 .onlineNow {
 	background-color: #213bb8;
+	width: 250px;
+	height: 70px;
+	margin-left: 5px;
+	margin-right: 0;
+	float: right; 
+	vertical-align: center;
 }
 .onlineNow.img {
 	float: left;
@@ -111,6 +118,9 @@ main {
 	width: 180px;
 	position: relative;
 	bottom: 0px;	
+}
+.quickButton {
+	margin-left: 3px;
 }
 .save {
 	background-color: #213bb8;
